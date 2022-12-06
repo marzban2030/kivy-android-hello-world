@@ -9,12 +9,12 @@ requirements = kivy==master
 orientation = portrait
 fullscreen = 0
 android.api = 30
-android.minapi = 21
-android.ndk = 20b
+android.minapi = 28
+android.ndk = 25
 #android.ndk_path =
 #android.sdk_path =
 android.accept_sdk_license = True
-android.arch = arm64-v8a
+android.archs = arm64-v8a
 p4a.branch = develop
 p4a.bootstrap = sdl2
 
