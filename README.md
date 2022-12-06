@@ -25,7 +25,7 @@ cd kivy-android-hello-world
 buildozer -v android debug
 ```
 
-Finally after several minutes to downloading built-in APK file run below command in Google Colab:
+Finally after several minutes, To downloading built-in APK file run below command in Google Colab:
 ```
 from google.colab import files
 files.download('path_to_APK')
