@@ -1,6 +1,6 @@
 # kivy-android-hello-world
 
-Developing Android code is harder than Java code, Java code is harder than C++ code. The easiest code to developing is Python code, Build your Android APK application from Python kivy framework with few codes and steps by following instructions in this repository. No system and IDE is needed.
+Developing Android code is harder than Java code, Java code is harder than C++ code. The easiest code to developing is Python code, Build your Android APK application from Python kivy framework with few codes and steps by following instructions in this repository. Common way to building APK file from Kotlin and Java codes is Android Studio IDE however buildozer do this like as gradle in coomand line, Android SDK and NDK will be used here by buildozer to building APK. No system and IDE is needed here however there is need to a system with strong hardwares.
 
 # Build APK in Google Colab
 
