@@ -34,3 +34,5 @@ files.download('path_to_APK')
 The path to APK was "/content/kivy-android-hello-world/bin/hello-0.0.1-arm64-v8a-debug.apk" for me, Maybe it is different for you.
 
 Note: Avoid to license and copyright issues, The built-in APK file is not released here.
+
+![Image1](https://github.com/marzban2030/kivy-android-hello-world/raw/master/Screenshot.jpg)
