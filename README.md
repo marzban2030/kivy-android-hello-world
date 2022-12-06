@@ -1,5 +1,7 @@
 # kivy-android-hello-world
 
+Developing Android code is harder than Java code, Java code is harder than C++ code. The easiest code to developing is Python code, Build your Android APK application from Python kivy framework with few codes and steps by following instructions in this repository. No system and IDE is needed.
+
 # Build APK in Google Colab
 
 Run below commands in Google Colab:
@@ -22,3 +24,11 @@ Then run below commands in loaded X-terminal:
 cd kivy-android-hello-world
 buildozer -v android debug
 ```
+
+Finally after several minutes to downloading built-in APK file run below command in Google Colab:
+```
+from google.colab import files
+files.download('path_to_APK')
+```
+
+The path to APK was "/content/kivy-android-hello-world/bin/hello-0.0.1-arm64-v8a-debug.apk" for me, Maybe it is different for you.
