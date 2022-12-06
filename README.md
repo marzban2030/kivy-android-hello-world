@@ -36,3 +36,15 @@ The path to APK was "/content/kivy-android-hello-world/bin/hello-0.0.1-arm64-v8a
 Note: Avoid to license and copyright issues, The built-in APK file is not released here.
 
 ![Image1](https://github.com/marzban2030/kivy-android-hello-world/raw/master/Screenshot.jpg)
+
+# Learn more
+
+It's long task to building APK from Python:
+
+Cython cythonize python codes to C++ codes!
+
+buildozer with Android NDK (Native Development Kit) translate C++ codes to Kotlin and Java codes!
+
+gradle with Android SDK build APK from Kotlin and Java codes!
+
+Around 1GB packages with about 6GB installation size in a system with AMD RYZEN CPU and 12GB ram will be used to building a 14MB APK file from 8 lines of a Python code with 200 Bytes size during 30 minutes to showing a simple "Hello, World!" text in an Android device at moment.
