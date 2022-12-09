@@ -4,6 +4,8 @@ Developing Android code is harder than Java code, Java code is harder than C++ c
 
 # Build APK in Google Colab
 
+Firstly, Change Android API and Minimum Android NDK API version numbers in "buildozer.spec" file. Android API version number should be set to highest available Android API version number from Google and Android NDK API version number must be set to latest Google supported Android NDK API version number, Pay attention that Python-for-Android (p4a) recommend you to use supported Android NDK API version certainly during build and encouraged with an error if Android NDK API version number has not been set to recommended supported version.
+
 Run below commands in Google Colab:
 ```
 !sudo apt update
@@ -48,3 +50,5 @@ buildozer with Android NDK (Native Development Kit) translate C++ codes to Kotli
 gradle with Android SDK build APK from Kotlin and Java codes!
 
 Around 1GB packages with about 6GB installation size in a system with AMD RYZEN CPU and 12GB ram will be used to building a 14MB APK file from 8 lines of a Python code with 200 Bytes size during 30 minutes to showing a simple "Hello, World!" text in an Android device at moment.
+
+Anyway, Building APK file from Kivy Python has some limits and in most cases doesn't work, I recommend you that use Android Studio IDE with Kotlin and Java codes to building APK file.
