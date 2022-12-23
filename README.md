@@ -13,7 +13,7 @@ Run below commands in Colab:
 !pip install --upgrade Cython==0.29.19 virtualenv
 !git clone https://github.com/marzban2030/kivy-android-hello-world
 !pip install --upgrade buildozer kivy
-!cd kivy-android-hello-world && buildozer -v android debug
+!cd kivy-android-hello-world && yes | buildozer -v android debug
 ```
 
 Finally run:
