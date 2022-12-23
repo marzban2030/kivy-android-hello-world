@@ -2,7 +2,7 @@
 
 Developing Android code is harder than Java code, Java code is harder than C++ code. The easiest code to developing is Python code, Build your Android APK application from Python kivy framework with few codes and steps by following instructions in this repository. Common way to building APK file from Kotlin and Java codes is Android Studio IDE however buildozer do this (on Python codes) like as gradle in command line, Android SDK and NDK will be used here by buildozer to building APK. No system and IDE is needed here however there is need to a system with strong hardwares.
 
-# Build in Colab
+# Build
 
 Firstly, Change Android API and Minimum Android NDK API version numbers in "buildozer.spec" file. Android API version number should be set to highest available Android API version number from Google and Android NDK API version number must be set to latest Google supported Android NDK API version number, Pay attention that Python-for-Android (p4a) recommend you to use supported Android NDK API version certainly during build process and will be encouraged with an error if Android NDK API version number has not been set to recommended supported version.
 
