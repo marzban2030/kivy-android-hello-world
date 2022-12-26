@@ -10,19 +10,18 @@ Run below commands in Colab:
 ```
 !sudo apt update
 !sudo apt install -y git zip unzip build-essential openjdk-8-jdk python3-pip autoconf libtool pkg-config zlib1g-dev libncurses5-dev libncursesw5-dev libtinfo5 cmake libffi-dev libssl-dev libltdl-dev lld
-!pip install --upgrade Cython==0.29.19 virtualenv
+!pip install Cython virtualenv buildozer kivy
 !git clone https://github.com/marzban2030/kivy-android-hello-world
-!pip install --upgrade buildozer kivy
 !cd kivy-android-hello-world && yes | buildozer -v android debug
 ```
 
 Finally run:
 ```
 from google.colab import files
-files.download('path_to_APK')
+files.download('/content/kivy-android-hello-world/bin/hello-0.0.1-arm64-v8a-debug.apk')
 ```
 
-The path to APK was "/content/kivy-android-hello-world/bin/hello-0.0.1-arm64-v8a-debug.apk" for me, Maybe it is different for you.
+The URLs and paths are not absolute, Change these if required.
 
 # Learn more
 
