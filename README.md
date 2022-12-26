@@ -4,7 +4,7 @@ Developing Android code is harder than Java code, Java code is harder than C++ c
 
 # Build
 
-Firstly, Change Android API and Minimum Android NDK API version numbers in "buildozer.spec" file. Android API version number should be set to highest available Android API version number from Google and Android NDK API version number must be set to latest Google supported Android NDK API version number, Pay attention that Python-for-Android (p4a) recommend you to use supported Android NDK API version certainly during build process and will be encouraged with an error if Android NDK API version number has not been set to recommended supported version.
+You can Change Android API and Minimum Android NDK API version numbers in "buildozer.spec" file optionally. In this case android API version number should be set to highest available Android API version number from Google and Android NDK API version number must be set to latest Google supported Android NDK API version number, Pay attention that Python-for-Android (p4a) recommend you to use supported Android NDK API version certainly during build process and will be encouraged with an error if Android NDK API version number has not been set to recommended supported version.
 
 Run below commands in Colab:
 ```
@@ -26,7 +26,7 @@ The path to APK was "/content/kivy-android-hello-world/bin/hello-0.0.1-arm64-v8a
 
 # Learn more
 
-It's long task to building APK from Python:
+It's long task to building APK from Python and in most cases doesn't work properly:
 
 Cython cythonize python codes to C++ codes!
 
@@ -36,4 +36,4 @@ gradle with Android SDK build APK from Kotlin and Java codes!
 
 Around 1GB packages with about 6GB installation size in a system with AMD RYZEN CPU and 12GB ram will be used to building a 14MB APK file from 8 lines of a Python code with 200 Bytes size during 30 minutes to showing a simple "Hello, World!" text in an Android device at moment.
 
-Anyway, Building APK file from Kivy Python has some limits and in most cases doesn't work, I recommend you that use Android Studio IDE with Kotlin and Java codes to building APK file.
+Anyway, Building APK file from Kivy Python has some limits and in most cases doesn't work properly, I recommend you that use Android Studio IDE with Kotlin and Java codes to building APK file.
